@@ -1,0 +1,24 @@
+.icon-face-wash {
+  width: 40px;
+  content: url(../product/icon/wash-face.png);
+}
+
+.icon-moist {
+  width: 40px;
+  content: url(../product/icon/skincare.png);
+}
+
+.icon-collagen {
+  width: 40px;
+  content: url(../product/icon/collagen.png);
+}
+
+.icon-body-serum {
+  width: 40px;
+  content: url(../product/icon/body-lotion.png);
+}
+
+.icon-cart {
+  width: 27px;
+  content: url(../product/icon/add-to-cart.png);
+}

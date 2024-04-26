@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Skydash Admin</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="../../vendors/feather/feather.css" />
+    <link
+      rel="stylesheet"
+      href="../../vendors/ti-icons/css/themify-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../vendors/mdi/css/materialdesignicons.min.css"
+    />
+    <link rel="stylesheet" href="../../vendors/css/vendor.bundle.base.css" />
+    <link rel="stylesheet" href="../product/icon.css" />
+    <script
+      src="https://kit.fontawesome.com/e52752acf1.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="../../css/vertical-layout-light/style.css" />
+    <!-- endinject -->
+    <link rel="shortcut icon" href="../../images/favicon.png" />
+  </head>
+
+  <body>
+    <div class="container-scroller">
+      <!-- partial:../../partials/_navbar.html -->
+      <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+        <div
+          class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center"
+        >
+          <a class="navbar-brand brand-logo mr-5" href="../../index.html"
+            ><h2>JoywayID</h2></a
+          >
+        </div>
+        <div
+          class="navbar-menu-wrapper d-flex align-items-center justify-content-end"
+        >
+          <button
+            class="navbar-toggler navbar-toggler align-self-center"
+            type="button"
+            data-toggle="minimize"
+          >
+            <span class="icon-menu"></span>
+          </button>
+          <ul class="navbar-nav mr-lg-2">
+            <li class="nav-item nav-search d-none d-lg-block">
+              <div class="input-group">
+                <div
+                  class="input-group-prepend hover-cursor"
+                  id="navbar-search-icon"
+                >
+                  <span class="input-group-text" id="search">
+                    <i class="icon-search"></i>
+                  </span>
+                </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="navbar-search-input"
+                  placeholder="Search now"
+                  aria-label="search"
+                  aria-describedby="search"
+                />
+              </div>
+            </li>
+          </ul>
+          <ul class="navbar-nav navbar-nav-right">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link count-indicator dropdown-toggle"
+                id="notificationDropdown"
+                href="#"
+                data-toggle="dropdown"
+              >
+                <i class="icon-bell mx-0"></i>
+                <span class="count"></span>
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list"
+                aria-labelledby="notificationDropdown"
+              >
+                <p class="mb-0 font-weight-normal float-left dropdown-header">
+                  Notifications
+                </p>
+                <a class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <div class="preview-icon bg-success">
+                      <i class="ti-info-alt mx-0"></i>
+                    </div>
+                  </div>
+                  <div class="preview-item-content">
+                    <h6 class="preview-subject font-weight-normal">
+                      Application Error
+                    </h6>
+                    <p class="font-weight-light small-text mb-0 text-muted">
+                      Just now
+                    </p>
+                  </div>
+                </a>
+                <a class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <div class="preview-icon bg-warning">
+                      <i class="ti-settings mx-0"></i>
+                    </div>
+                  </div>
+                  <div class="preview-item-content">
+                    <h6 class="preview-subject font-weight-normal">Settings</h6>
+                    <p class="font-weight-light small-text mb-0 text-muted">
+                      Private message
+                    </p>
+                  </div>
+                </a>
+                <a class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <div class="preview-icon bg-info">
+                      <i class="ti-user mx-0"></i>
+                    </div>
+                  </div>
+                  <div class="preview-item-content">
+                    <h6 class="preview-subject font-weight-normal">
+                      New user registration
+                    </h6>
+                    <p class="font-weight-light small-text mb-0 text-muted">
+                      2 days ago
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link count-indicator dropdown-toggle"
+                id="notificationDropdown"
+                href="../../cart.html"
+              >
+                <i class="icon-cart mx-0"></i>
+              </a>
+            </li>
+          </ul>
+          <button
+            class="navbar-toggler navbar-toggler-right d-lg-none align-self-center"
+            type="button"
+            data-toggle="offcanvas"
+          >
+            <span class="icon-menu"></span>
+          </button>
+        </div>
+      </nav>
+      <!-- partial -->
+      <div class="container-fluid page-body-wrapper">
+        <!-- partial:../../partials/_settings-panel.html -->
+
+        <!-- partial -->
+        <!-- partial:../../partials/_sidebar.html -->
+        <nav class="sidebar sidebar-offcanvas" id="sidebar">
+          <ul class="nav">
+            <!-- Dashboard -->
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html">
+                <i class="icon-grid menu-icon"></i>
+                <span class="menu-title">Dashboard</span>
+              </a>
+            </li>
+            <!-- Product -->
+            <li class="nav-item">
+              <a class="nav-link" href="kategori.html">
+                <i class="icon-box menu-icon"></i>
+                <span class="menu-title">Product</span>
+              </a>
+            </li>
+            <!-- Cari Partner -->
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-toggle="collapse"
+                href="#ui-basic"
+                aria-expanded="false"
+                aria-controls="ui-basic"
+              >
+                <i class="icon-eye menu-icon"></i>
+                <span class="menu-title">Cari Partner Kota</span>
+                <i class="menu-arrow"></i>
+              </a>
+              <div class="collapse" id="ui-basic">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../../cari-partner-barang.html"
+                      >Berdasarkan Barang</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../../cari-berdasarkan-kota.html"
+                      >Berdasarkan Kota</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <br />
+
+            <li class="nav-item">
+              <a href="javascript:void(0);" class="nav-link">
+                <span class="menu-title text-dark">Account</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../profile.html">
+                <i class="icon-head menu-icon"></i>
+                <span class="menu-title">Profile</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-toggle="collapse"
+                href="#keuangan"
+                aria-expanded="false"
+                aria-controls="ui-basic"
+              >
+                <i class="icon-book menu-icon"></i>
+                <span class="menu-title">Keuangan</span>
+                <i class="menu-arrow"></i>
+              </a>
+              <div class="collapse" id="keuangan">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../../manage-pemasukan.html"
+                      >Manage Pemasukan</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../../manage-pengeluaran.html"
+                      >Manage Pengeluaran</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../../laporan-keuangan.html"
+                      >Laporan Keuangan</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <br />
+            <li class="nav-item">
+              <a href="javascript:void(0);" class="nav-link">
+                <span class="menu-title text-dark">Order Pembelian</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="../../riwayat_pembelian.html"
+                aria-controls="auth"
+              >
+                <i class="icon-bag menu-icon"></i>
+                <span class="menu-title">Riwayat Pembelian</span>
+              </a>
+            </li>
+            <br />
+            <li class="nav-item">
+              <a href="javascript:void(0);" class="nav-link">
+                <span class="menu-title text-dark">Billing</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../payment.html">
+                <i class="icon-alt menu-icon"></i>
+                <span class="menu-title">Payment</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../deposit.html">
+                <i class="icon-bar-graph-2 menu-icon"></i>
+                <span class="menu-title">Deposit</span>
+              </a>
+            </li>
+            <br />
+            <li class="nav-item">
+              <a href="javascript:void(0);" class="nav-link">
+                <span class="menu-title text-dark">Support</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-toggle="collapse"
+                href="#auth"
+                aria-expanded="false"
+                aria-controls="auth"
+              >
+                <i class="icon-heart menu-icon"></i>
+                <span class="menu-title">Contact</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-toggle="collapse"
+                href="#auth"
+                aria-expanded="false"
+                aria-controls="auth"
+              >
+                <i class="icon-flag menu-icon"></i>
+                <span class="menu-title">Panduan Resseler</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../cek-ongkir/cek-ongkir.html">
+                <i class="icon-search menu-icon"></i>
+                <span class="menu-title">Cek Ongkir</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../login/login.html">
+                <i class="icon-power menu-icon"></i>
+                <span class="menu-title">Log Out</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- partial -->
+        <div class="main-panel">
+          <div class="content-wrapper">
+            <div class="row">
+              <div class="col">
+                <h3 class="mb-4">Product Details.</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 grid-margin stretch-card">
+                <div class="card mb-3" style="max-width: 540px">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img
+                        src="../../images/foto-produk/CLh 5.png"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title font-weight-bold">
+                          Collagen Start
+                        </h5>
+                        <p class="card-text">
+                          Minuman kolagen bernutrisi dengan rasa honey yang
+                          berkhasiat untuk mencegah penuaan, meningkatkan massa
+                          otot, meredakan nyeri sendi, mengurangi selulit dan
+                          menunjang kesehatan jantung.
+                        </p>
+                        <p class="card-text font-weight-medium">
+                          Berat : 75gram
+                        </p>
+                        <br />
+                        <h4 class="text-primary">Rp.25.000</h4>
+                        <form class="row g-3 mt-4">
+                          <div
+                            class="col-auto"
+                            style="padding-right: 2px; margin-top: 2px"
+                          >
+                            <button
+                              type="button"
+                              class="btn btn-primary mb-3"
+                              style="
+                                clip-path: circle();
+                                background-color: #4b49ac;
+                                padding: 13px;
+                                border-color: #0086d6;
+                                border-style: none;
+                              "
+                            >
+                              +
+                            </button>
+                          </div>
+                          <div class="col-2" style="padding-right: 2px">
+                            <input
+                              type="number"
+                              class="form-control"
+                              width="50px"
+                            />
+                          </div>
+                          <div class="col-auto" style="padding-right: 2px">
+                            <button
+                              type="button"
+                              class="btn text-white mb-3"
+                              style="
+                                clip-path: circle();
+                                background-color: #4b49ac;
+                                padding: 15px;
+                              "
+                            >
+                              -
+                            </button>
+                          </div>
+                          <div class="col-auto" style="margin-top: 3px">
+                            <a
+                              href="../../cart.html"
+                              class="btn btn-outline-primary"
+                              style="border-radius: 5px; padding: 10px"
+                              >Add to Cart</a
+                            >
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- content-wrapper ends -->
+          <!-- partial:../../partials/_footer.html -->
+          <footer class="footer">
+            <div
+              class="d-sm-flex justify-content-center justify-content-sm-between"
+            >
+              <span
+                class="text-muted text-center text-sm-left d-block d-sm-inline-block"
+                >Copyright © 2021. Premium
+                <a href="https://www.bootstrapdash.com/" target="_blank"
+                  >Bootstrap admin template</a
+                >
+                from BootstrapDash. All rights reserved.</span
+              >
+              <span
+                class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"
+                >Hand-crafted & made with
+                <i class="ti-heart text-danger ml-1"></i
+              ></span>
+            </div>
+          </footer>
+          <!-- partial -->
+        </div>
+        <!-- main-panel ends -->
+      </div>
+      <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="../../vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="../../vendors/chart.js/Chart.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/e52752acf1.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="../../js/off-canvas.js"></script>
+    <script src="../../js/hoverable-collapse.js"></script>
+    <script src="../../js/template.js"></script>
+    <script src="../../js/settings.js"></script>
+    <script src="../../js/todolist.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page-->
+    <script src="../../js/chart.js"></script>
+    <!-- End custom js for this page-->
+  </body>
+</html>
