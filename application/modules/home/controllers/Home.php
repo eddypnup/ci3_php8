@@ -10,10 +10,7 @@ class Home extends MY_Controller {
 	
 	function index(){
 		//redirect(base_url("public"));
-		$this->load->view('index');
-	}
-	
-	function admin(){
-		$this->load->view('admin');
+		
+		$this->load->view('V_index');
 	}
 }

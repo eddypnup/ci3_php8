@@ -1,1 +1,0 @@
-<script src="<?php echo base_url() ?>assets/dist/js/xlsx.full.min.js"></script>
